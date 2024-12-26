@@ -1,0 +1,269 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import "~bootstrap/dist/css/bootstrap.min.css";*/
+/*@import "~font-awesome/css/font-awesome.css";*/
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/*@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";*/
+/*@import "../node_modules/font-awesome/css/font-awesome.css";*/
+/*@import "../node_modules/primeng/resources/themes/omega/theme.css";
+*/@import "../node_modules/primeng/resources/primeng.css";
+@import 'Hp-theme/css/Master.css';
+@import'app/assests/css/jquery.multilevelpushmenu.css';
+@font-face {
+  font-family: 'hp-simplified';
+  src: url('app/assests/fonts/hp-simplified.eot');
+  src: local('☺'), url('app/assests/fonts/hp-simplified.woff') format('woff'), url('app/assests/fonts/hp-simplified.ttf') format('truetype'), url('app/assests/fonts/hp-simplified.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HP Simplified Light';
+  src: url('app/assests/fonts/hp-simplified-light.eot');
+  src: local('☺'), url('app/assests/fonts/hp-simplified-light.woff') format('woff'), url('app/assests/fonts/hp-simplified-light.ttf') format('truetype'), url('app/assests/fonts/hp-simplified-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html {
+  height: 100% !important;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: 'HP Simplified Light';
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+button.mat-raised-button {
+  background: #0197d6;
+  border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  font-size: 14px;
+  color: #fff;
+  border: 0px;
+  display: inline-block;
+  font-family: 'hp-simplified';
+}
+.cdk-overlay-pane {
+  background: white !important;
+  margin-left: -13px;
+}
+
+.mat-mdc-option[aria-disabled=true].contains-mat-select-search .mat-icon {
+  margin-right: 0;
+  margin-left: 0;
+  visibility: hidden;
+}
+.mat-mdc-select-placeholder {
+  transition: color 400ms 133.3333333333ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  color: var(--mat-select-placeholder-text-color);
+  /* font-style: italic; */
+  font-family: 'HP Simplified Light';
+  font-size:15px;
+}
+.p-dialog-draggable {
+  /*padding: 20px;
+ 
+  */
+
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.p-dialog-header, .p-dialog-title {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: #2399e5;
+  color: white;
+}
+
+.p-dialog-title {
+  height: 22px;
+}
+
+.p-dialog-content {
+  overflow-y: unset !important;
+  flex-grow: unset !important;
+  margin: 10px;
+}
+
+.p-dialog-header-close {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+#overlay-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.mat-dialog-container {
+  border-radius: 10px; /* Adjust the value as needed */
+}
+.cdk-overlay-pane.mat-mdc-dialog-panel{
+    border-radius:20px
+}
+.mat-mdc-text-field-wrapper{
+    background-color:white
+}
+.mdc-text-field {
+  background-color: white !important
+}
+.BLACKCLR {
+  color: black;
+}
+
+.REDCLR {
+  color: red;
+}
+
+.BLUECLR {
+  color: blue;
+}
+
+.MAGENTACLR {
+  color: #f466cc;
+}
+
+.YELLOWCLR {
+  color: yellow;
+}
+
+.FLUSHINGFLUIDCLR {
+  color: rgb(234, 224, 200);
+}
+
+.VARNISHCLR {
+  color: brown;
+}
+
+.BASECLR {
+  color: gray;
+}
+
+.SPECIALCLR {
+  color: gray;
+}
+
+.NONECLR {
+  color: white;
+}
+
+.WHITECLR {
+  color: white;
+  text-shadow: 0 0 5px darkturquoise;
+}
+
+.PRETREATMENTCLR {
+  color: gray;
+}
+
+.GREENCLR {
+  color: green;
+}
+
+.ORANGECLR {
+  color: ORANGE;
+}
+
+/*.WHITEglyphishadowCLR {
+    
+}*/
+
+.VIOLETCLR {
+  color: violet;
+}
+
+.YELLOWGREENCLR {
+  color: yellowgreen;
+}
+
+.COMMONCLR {
+  color: #00ffaa;
+}
+.CYANCLR {
+  color: cyan;
+}
+
+.loader {
+  position: absolute !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: auto !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.loader::after {
+  content: "";
+  border: 10px solid #f3f3f3 !important; /* Light grey */
+
+  border-top: 10px solid #3498db !important; /* Blue */
+
+  border-radius: 50% !important;
+  width: 120px!important;
+  height: 120px !important;
+  animation: spin 2s linear infinite !important;
+  margin: auto !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  opacity: 1 !important;
+}
+.mat-mdc-select-placeholder {
+  transition: color 400ms 133.3333333333ms cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  /* color: var(--mat-select-placeholder-text-color); */
+  font-family: 'HP Simplified Light' !important;
+  color: #333 !important;
+}
+.mdc-text-field--no-label:not(.mdc-text-field--textarea) .mat-mdc-form-field-input-control.mdc-text-field__input, .mat-mdc-text-field-wrapper .mat-mdc-form-field-input-control {
+  height: auto !important;
+  font-family: 'HP Simplified Light' !important;
+  color: #000000 !important;
+}
+  @keyframes spin {
+
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+mat-label {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'HP Simplified Light';
+}
+.highlight-row {
+  background-color: #cae7f5 !important;
+}
+.chatbot  {
+  position: fixed !important; /* Ensures the dialog stays fixed */
+  bottom: 110px; /* Fixes the dialog at the bottom */
+  right: 53px; /* Aligns the dialog to the left side */
+  /*margin: 0;*/ /* Removes any margin */
+  /*width: auto;*/ /* Adjust width as needed */
+  /*max-width: 300px;*/ /* Set max width if needed */
+   /* Optional shadow */
+}
+::ng-deep .mat-mdc-select-min-line ng-tns-c1771602899-5 ng-star-inserted{
+    font-family:"HP Simplified Light" !important
+}
+

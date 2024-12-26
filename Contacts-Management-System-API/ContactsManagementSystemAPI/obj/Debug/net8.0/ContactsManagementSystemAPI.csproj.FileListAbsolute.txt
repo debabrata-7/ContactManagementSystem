@@ -1,0 +1,68 @@
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.exe
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.deps.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.runtimeconfig.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.pdb
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.csproj.AssemblyReference.cache
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.AssemblyInfoInputs.cache
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.AssemblyInfo.cs
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.csproj.CoreCompileInputs.cache
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.ContactsManagementSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.ContactsManagementSystemAPI.props
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ContactsManagementSystemAPI.props
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ContactsManagementSystemAPI.props
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\scopedcss\bundle\ContactsManagementSystemAPI.styles.css
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\Contacts.C6C9807A.Up2Date
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\refint\ContactsManagementSystemAPI.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.pdb
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.genruntimeconfig.cache
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ref\ContactsManagementSystemAPI.dll
+C:\Users\ravir\Desktop\debu\ContactsManagementSystem\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Contacts.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Contacts.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.exe
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.deps.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.runtimeconfig.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\ContactsManagementSystemAPI.pdb
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.csproj.AssemblyReference.cache
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.AssemblyInfoInputs.cache
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.AssemblyInfo.cs
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.csproj.CoreCompileInputs.cache
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.ContactsManagementSystemAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.ContactsManagementSystemAPI.props
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ContactsManagementSystemAPI.props
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ContactsManagementSystemAPI.props
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\scopedcss\bundle\ContactsManagementSystemAPI.styles.css
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\Contacts.C6C9807A.Up2Date
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\refint\ContactsManagementSystemAPI.dll
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.pdb
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ContactsManagementSystemAPI.genruntimeconfig.cache
+C:\Users\DuAr697\OneDrive - HP Inc\Documents\Contacts-Management-System-API\Contacts-Management-System-API\ContactsManagementSystemAPI\obj\Debug\net8.0\ref\ContactsManagementSystemAPI.dll

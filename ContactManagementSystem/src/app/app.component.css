@@ -1,0 +1,149 @@
+
+::ng-deep .sub-header-section {
+  position: absolute;
+  height: 40px;
+  top: 60px;
+  display: table;
+  background-color: #eaeaea;
+}
+
+  ::ng-deep .sub-header-section h1 {
+    width: 30%;
+    height: 40px;
+    font-family: 'hp-simplified', sans-serif;
+    font-size: 1.4em;
+    vertical-align: middle;
+    color: #333;
+    padding: 0px;
+    margin: 0px;
+    display: table-cell;
+  }
+
+::ng-deep.loading {
+  background: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9998;
+}
+
+::ng-deep #wrapper {
+  position: relative;
+  top: 0px;
+  left: 220px;
+  color: #333;
+  font-family: 'HP Simplified Light',sans-serif;
+  min-height: 100%;
+  right: 0px;
+  margin-right: 0px !important;
+}
+
+::ng-deep #page-content-wrapper {
+  padding-top: 0px;
+  padding-bottom: 80px;
+}
+
+/*Flash Message*/
+::ng-deep .ui-messages-success {
+  color: #067B16;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  font-weight: bolder;
+}
+
+  ::ng-deep .ui-messages-success .ui-messages-close {
+    color: #067B16;
+  }
+
+::ng-deep .ui-messages-info {
+  color: #215d8d;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  font-weight: bolder;
+}
+
+  ::ng-deep .ui-messages-info .ui-messages-close {
+    color: #215d8d;
+  }
+
+::ng-deep .ui-messages-warn {
+  color: #8A7112;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  font-weight: bolder;
+}
+
+  ::ng-deep .ui-messages-warn .ui-messages-close {
+    color: #8A7112;
+  }
+
+::ng-deep .ui-messages-error {
+  color: #8b273e;
+  background-color: #FBC5C5;
+  border-color: #ebccd1;
+  font-weight: bolder;
+}
+
+  ::ng-deep .ui-messages-error .ui-messages-close {
+    color: #8b273e;
+  }
+
+::ng-deep .ui-messages-icon {
+  font-size: 20px;
+}
+
+::ng-deep .flashMsg {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/*  flash message icon*/
+::ng-deep .ui-messages-success :before {
+  content: "";
+}
+
+::ng-deep .ui-messages-success .ui-messages-close :before {
+  content: "\f00d";
+  font-family: "FontAwesome";
+}
+
+::ng-deep .ui-messages-success:before {
+  content: "\f058";
+  font-family: "FontAwesome";
+  margin-right: -25px;
+  font-size: 20px;
+}
+
+::ng-deep .ui-messages-error :before {
+  content: "";
+}
+
+::ng-deep .ui-messages-error .ui-messages-close :before {
+  content: "\f00d";
+  font-family: "FontAwesome";
+}
+
+::ng-deep .ui-messages-detail {
+  margin-left: 0em;
+}
+
+::ng-deep .ui-messages-error:before {
+  content: "\f06a";
+  font-family: "FontAwesome";
+  margin-right: -25px;
+  font-size: 20px;
+  display: contents;
+}
+
+::ng-deep .ui-messages-error ul .ui-messages-detail {
+  display: inline-block;
+  margin-left: 10px;
+}
+.collnav {
+  position: relative;
+  left: -166px !important;
+  width: 110%;
+}
+

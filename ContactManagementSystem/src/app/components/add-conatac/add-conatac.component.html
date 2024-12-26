@@ -1,0 +1,37 @@
+<h1 style="text-align: center;">Add Contact</h1>
+
+<form [formGroup]="ContactForm" (ngSubmit)="Save()">
+    <div>
+        <mat-label style="font-weight:bolder" class="label-header">First Name</mat-label>
+        <input required class="form-control mt-2 input" matInput formControlName="firstName" type="text" placeholder="Enter First Name">
+        <small *ngIf="ContactForm.get('firstName')?.touched && ContactForm.get('firstName')?.hasError('required')" class="text-danger">
+            First Name is required.
+        </small>
+    </div>
+
+    <div>
+        <mat-label style="font-weight:bolder" class="label-header">Last Name</mat-label>
+        <input required class="form-control mt-2 input" matInput formControlName="lastName" type="text" placeholder="Enter Last Name">
+        <small *ngIf="ContactForm.get('lastName')?.touched && ContactForm.get('lastName')?.hasError('required')" class="text-danger">
+            Last Name is required.
+        </small>
+    </div>
+
+    <div>
+        <mat-label style="font-weight:bolder" class="label-header">Email</mat-label>
+        <input class="form-control mt-2 input" matInput formControlName="email" type="email" placeholder="Enter Email">
+        <small *ngIf="ContactForm.get('email')?.touched && ContactForm.get('email')?.hasError('required')" class="text-danger">
+            Email is required.
+        </small>
+        <small *ngIf="ContactForm.get('email')?.touched && ContactForm.get('email')?.hasError('email')" class="text-danger">
+            Invalid email address.
+        </small>
+    </div>
+
+    <button class="btn btn-primary" style="margin-top: 20px;" [disabled]="!ContactForm.valid">
+        Save
+    </button>
+    <button class="btn btn-danger" style="margin-top: 20px; margin-left: 10px;" (click)="Clear()">
+        Clear
+    </button>
+</form>

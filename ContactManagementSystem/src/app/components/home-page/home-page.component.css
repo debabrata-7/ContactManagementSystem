@@ -1,0 +1,44 @@
+.wrap {
+  margin-top: 155px;
+
+}
+
+.collapsenav {
+  left: 171px !important;
+  position: relative;
+  width: 91% !important;
+}
+
+.collapsenavbody {
+  left: 60px !important
+}
+th{
+    font-weight:bold
+}
+th {
+  background-color: #5b9bd5;
+  color:white
+}
+/*tables th {
+  background-color: #5b9bd5;
+  color: white
+}*/
+/*::ng-deep .tables thead {
+  background-color: #5b9bd5;
+  color: white
+}*/
+.myteamhead {
+  background-color: #5b9bd5 !important;
+}
+.myteams th {
+  background-color: #5b9bd5 !important;
+}
+.c3 svg{
+    overflow-x:auto !important;
+    overflow-y:auto !important;
+    width:200px !important;
+    height:200px !important;
+}
+
+
+
