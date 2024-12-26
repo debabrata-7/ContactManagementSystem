@@ -42,9 +42,8 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatChipListbox } from '@angular/material/chips';
 //import { HomePageComponent } from './components/home-page/home-page.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { AddConatacComponent } from './components/add-conatac/add-conatac.component';
+import { AddContactComponent } from './components/add-contact/add-contact.component';
 import { UpdateComponentsComponent } from './components/update-components/update-components.component';
-//import {UpdateComponentsComponent} from './components/add-conatac/add-conatac.component'
 
 //import { BreadcrumbModule } from 'xng-breadcrumb';
 @NgModule({
@@ -52,7 +51,7 @@ import { UpdateComponentsComponent } from './components/update-components/update
     AppComponent,
     
     HomePageComponent,
-    AddConatacComponent,
+    AddContactComponent,
  UpdateComponentsComponent,
   ],
   imports: [

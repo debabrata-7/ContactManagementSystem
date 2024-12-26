@@ -5,11 +5,11 @@ import { ContactService } from '../../services/contact.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-add-conatac',
-  templateUrl: './add-conatac.component.html',
-  styleUrls: ['./add-conatac.component.css']
+  selector: 'app-add-contact',
+  templateUrl: './add-contact.component.html',
+  styleUrls: ['./add-contact.component.css']
 })
-export class AddConatacComponent implements OnInit {
+export class AddContactComponent implements OnInit {
   ContactForm!: FormGroup;
 
   constructor(public contactService: ContactService, private router: Router) {}

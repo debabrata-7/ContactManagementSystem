@@ -13,7 +13,7 @@ import { Contact } from '../models/login.model';
 export class ContactService extends BaseService {
   getAllContacts():Observable<any[]>
   {
-    const getURi= Appsetting.GetConatcts;
+    const getURi= Appsetting.GetContacts;
     return this.http.get<any[]>(getURi)
   }
   save(Cont:Contact)

@@ -17,54 +17,15 @@ public class Startup
     public Startup(IConfiguration configuration)
     {
         Configuration = configuration;
-        var site = this.Configuration?.GetSection("AppSettings")?["Site"];
-        if (site == "CORVALLIS")
-        {
-            this.ConnectionString = this.Configuration.GetConnectionString("DbContext_CRVLS_Encrypted");
-        }
-
-        if (site == "PUERTO RICO")
-        {
-            this.ConnectionString = this.Configuration.GetConnectionString("DbContext_PR_Encrypted");
-        }
-
-        if (site == "SINGAPORE")
-        {
-            this.ConnectionString = this.Configuration.GetConnectionString("DbContext_SINGAPORE_Encrypted");
-        }
-
-        if (site == "ISIMO")
-        {
-            this.ConnectionString = this.Configuration.GetConnectionString("DbContext_IS_Encrypted");
-        }
-
-        var connBuilder = new System.Data.SqlClient.SqlConnectionStringBuilder(ConnectionString);
-        var decryptconn = EncryptDecrypt.Decrypt(connBuilder.Password);
-        connBuilder.Password = decryptconn;
-        this.ConnectionString = connBuilder.ConnectionString;
+        
     }
 
     
     public void ConfigureServices(IServiceCollection services)
     {
-        // Register DbContext
-        services.AddDbContext<INKDBPRContext>(options => options.UseSqlServer(ConnectionString));
-
-     
-        //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DbContext_SINGAPORE_Encrypted")));
-        //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext")));
-        //services.AddDbContext<InkDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext")));
-        services.AddDbContext<InkDbContext>(options => options.UseSqlServer(this.ConnectionString));
-
         var configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-        var requiredHeaders = new List<string> { "TechId", "ProdTypeId", "FamilyId", "DetailId" };
+        
         services.AddScoped<IHeaderValidator>(_ => new HeaderValidator(requiredHeaders));
-
-
-        // Register TechnologyService
-        services.AddScoped<ITechnologyService, TechnologyService>();
-        services.AddScoped<ITechnologyRepository, TechnologyRepository>();
-
         // Add other services...
         services.AddSingleton<IConfiguration>(this.Configuration);
         services.AddControllers();
@@ -106,14 +67,12 @@ public class Startup
 
     public void ConfigureAppServices(IServiceCollection services)
     {
-        services.AddScoped<ITechnologyService, TechnologyService>();
     
     }
 
     public void ConfigureAppRepositories(IServiceCollection services)
     {
-        services.AddScoped<ITechnologyRepository, TechnologyRepository>();
-        services.AddScoped<IMaterialTypeRepository, MaterialTypeRepository>();
+    
      
     }
 
