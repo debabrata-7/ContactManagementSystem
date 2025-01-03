@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "dzjEChv41l27CudtNvuHMYgy3LiI4cIuWImyPKBBz6E=",
+  "Hash": "sXFxV+0aAC20J74khFmnEMUQCDJHxdXIWnIjQhX9C5E=",
   "Source": "ContactsManagementSystemAPI",
   "BasePath": "_content/ContactsManagementSystemAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -54,9 +54,9 @@ export class UpdateComponentsComponent implements OnInit {
     if (this.updateForm.valid) {
       const updatedContact: Contact = {
         id: this.contactId,
-        FirstName: this.updateForm.get('firstName')?.value,
-        LastName: this.updateForm.get('lastName')?.value,
-        Email: this.updateForm.get('email')?.value,
+        firstName: this.updateForm.get('firstName')?.value,
+        lastName: this.updateForm.get('lastName')?.value,
+        email: this.updateForm.get('email')?.value,
       };
 
       this.contactService.updateContact(this.contactId, updatedContact).subscribe(() => {

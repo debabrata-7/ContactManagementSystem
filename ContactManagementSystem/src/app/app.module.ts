@@ -44,6 +44,7 @@ import { MatChipListbox } from '@angular/material/chips';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { AddContactComponent } from './components/add-contact/add-contact.component';
 import { UpdateComponentsComponent } from './components/update-components/update-components.component';
+import { AddEditComponentComponent } from './components/add-edit-component/add-edit-component.component';
 
 //import { BreadcrumbModule } from 'xng-breadcrumb';
 @NgModule({
@@ -53,6 +54,7 @@ import { UpdateComponentsComponent } from './components/update-components/update
     HomePageComponent,
     AddContactComponent,
  UpdateComponentsComponent,
+ AddEditComponentComponent,
   ],
   imports: [
     HttpClientModule ,

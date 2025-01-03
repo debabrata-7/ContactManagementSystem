@@ -1,8 +1,6 @@
-
 <h1 style="text-align: center;">Contact List</h1>
 
-<button class="btn btn-success" style="margin-bottom: 10px;"
-><a href="/add-contact" style="text-decoration: none;color: white; ">New</a></button>
+<button class="btn btn-success" style="margin-bottom: 10px;" (click)="openModal()">New</button>
 <table class="table table-sm">
   <thead class="thead-dark">
     <th>First Name</th>
@@ -11,18 +9,18 @@
     <th></th>
   </thead>
   <ng-container *ngFor="let customer of customerArray">
-    <!-- <tr class="table" *ngIf="filterCondition(customer)"> -->
-      <tr>
+    <tr>
       <td>{{customer.firstName}}</td>
       <td>{{customer.lastName}}</td>
-        <td>{{customer.email}}</td>
-        <td style="margin: 2px;">
-          <button style="margin-right:10px;width:20%" class="btn btn-info"  (click)="editContact(customer.id)">Edit</button>
-          <button class="btn btn-danger" style="width:20%" (click)="Delete(customer.id)" >Delete</button>
-        </td> 
+      <td>{{customer.email}}</td>
+      <td>
+        <button style="margin-right:10px;width:20%" class="btn btn-info" (click)="openModal(customer.id)">Edit</button>
+        <button class="btn btn-danger" style="width:20%" (click)="Delete(customer.id)">Delete</button>
+      </td> 
     </tr>
   </ng-container>
 </table>
+
 <div class="alert alert-danger" *ngIf="showDeletedMessage">
   Deleted successfully.
 </div>

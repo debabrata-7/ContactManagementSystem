@@ -1,0 +1,63 @@
+<h1 class="text-center">{{ isEditMode ? 'Edit Contact' : 'Add Contact' }}</h1>
+
+<form [formGroup]="contactForm">
+  <!-- First Name -->
+  <div class="form-group" style="padding: 10px">
+    <label for="firstName" class="font-weight-bold">First Name</label>
+    <input
+      id="firstName"
+      class="form-control mt-2"
+      formControlName="firstName"
+      type="text"
+      placeholder="Enter First Name"
+    />
+    <div *ngIf="contactForm.get('firstName')?.touched && contactForm.get('firstName')?.invalid" class="text-danger">
+      First Name is required.
+    </div>
+  </div>
+
+  <!-- Last Name -->
+  <div class="form-group" style="padding: 10px">
+    <label for="lastName" class="font-weight-bold">Last Name</label>
+    <input
+      id="lastName"
+      class="form-control mt-2"
+      formControlName="lastName"
+      type="text"
+      placeholder="Enter Last Name"
+    />
+    <div *ngIf="contactForm.get('lastName')?.touched && contactForm.get('lastName')?.invalid" class="text-danger">
+      Last Name is required.
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div class="form-group" style="padding: 10px">
+    <label for="email" class="font-weight-bold">Email</label>
+    <input
+      id="email"
+      class="form-control mt-2"
+      formControlName="email"
+      type="email"
+      placeholder="Enter Email"
+    />
+    <div *ngIf="contactForm.get('email')?.touched && contactForm.get('email')?.invalid" class="text-danger">
+      A valid email is required.
+    </div>
+  </div>
+</form>
+
+<!-- Buttons -->
+<div class="mt-4" style="padding: 10px">
+  <button
+    class="btn btn-primary"
+    [disabled]="contactForm.invalid"
+    (click)="saveContact()"
+  >
+    {{ isEditMode ? 'Update' : 'Save' }}
+  </button>
+  <span style="margin-right: 10px;"></span>
+  <button class="btn btn-secondary ml-2" (click)="clearForm()">Clear</button>
+  <span style="margin-right: 10px;"></span>
+  <button class="btn btn-danger ml-2" (click)="closeModal()">Cancel</button>
+</div>

@@ -2,6 +2,9 @@ import { Component, OnInit, Renderer2, ViewChild } from '@angular/core';
 import { ContactService } from '../../services/contact.service';
 import { Route, Router } from '@angular/router';
 import { consumerPollProducersForChange } from '@angular/core/primitives/signals';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { AddEditComponentComponent } from '../add-edit-component/add-edit-component.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-home-page',
@@ -9,42 +12,60 @@ import { consumerPollProducersForChange } from '@angular/core/primitives/signals
   styleUrl: './home-page.component.css'
 })
 export class HomePageComponent implements OnInit {
-  constructor(public customerService: ContactService, private router:Router) { }
-  customerArray:any =[];
-  showDeletedMessage!:boolean;
-  searchText: string = "";
-  ngOnInit() {
-    this.customerService.getAllContacts().subscribe(
-      (list:any) => {
-        this.customerArray = list;
-        
-     });
+  customerArray: any = [];
+  showDeletedMessage!: boolean;
+
+  constructor(
+    public customerService: ContactService,
+    private dialog: MatDialog
+  ) {}
+
+  ngOnInit(): void {
+    this.customerService.getAllContacts().subscribe((list: any) => {
+      this.customerArray = list;
+    });
   }
 
-  Delete(id:any){
-    confirm("Do You want to Delete this record ?")
-    this.customerService.delete(id).subscribe((res:any)=>{
-        alert('Deleted contact successfully.');
-        window.location.reload();
-    },(err:any)=>{
-        console.log(err)
-    })
+  Delete(id: any) {
+    if (confirm("Do you want to delete this record?")) {
+      this.customerService.delete(id).subscribe(
+        () => {
+          this.showDeletedMessage = true;
+          this.ngOnInit();
+        },
+        (err: any) => {
+          console.log(err);
+        }
+      );
+    }
   }
-  editContact(id: number): void {
-    this.router.navigate(['/update', id]);
+
+  openModal(contactId?: number): void {
+    const dialogRef = this.dialog.open(AddEditComponentComponent, {
+      width: '500px',
+      data: { contactId }
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result === 'updated' || result === 'added') {
+        if(result==='updated')
+        {
+        alert('Contact updated successfully!');
+        }
+        else if(result==='added')
+        {
+          alert('Contact added successfully!');
+        }
+        this.ngOnInit();
+      }
+    });
   }
 
-//   onDelete($key:any) {
-//     if (confirm('Are you sure to delete this record ?')) {
-//       this.customerService.deleteCustomer($key);
-//       this.showDeletedMessage = true;
-//       setTimeout(() => this.showDeletedMessage = false, 3000);
-//     }
-//   }
-
-
-//   filterCondition(customer:any) {
-//     return customer.fullName.toLowerCase().indexOf(this.searchText.toLowerCase()) != -1;
-// }
+  // Listening to the contactUpdated event
+  handleContactUpdate(contact: any) {
+    // Here, you can handle the updated or new contact (e.g., add to the array or refresh data)
+    this.customerArray.push(contact); // For simplicity, pushing the new contact
+    this.ngOnInit(); // Refresh data
+  }
 
 }

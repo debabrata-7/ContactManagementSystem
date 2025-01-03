@@ -29,9 +29,9 @@ export class AddContactComponent implements OnInit {
   Save() {
     if (this.ContactForm.valid) {
       const contact: Contact = new Contact();
-      contact.FirstName = this.ContactForm.get('firstName')?.value;
-      contact.LastName = this.ContactForm.get('lastName')?.value;
-      contact.Email = this.ContactForm.get('email')?.value;
+      contact.firstName = this.ContactForm.get('firstName')?.value;
+      contact.lastName = this.ContactForm.get('lastName')?.value;
+      contact.email = this.ContactForm.get('email')?.value;
 
       console.log(contact);
 
